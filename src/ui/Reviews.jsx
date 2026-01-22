@@ -4,7 +4,7 @@ import React from "react";
 export default function Reviews({ colorBorder, color, shadow }) {
   return (
     <div
-      className="w-[396px] rounded-[2px] border-2 p-6 bg-white"
+      className="w-[396px] max-sm:w-[350px] rounded-[2px] border-2 p-6 bg-white"
       style={{
         borderColor: color,
         boxShadow: shadow,
