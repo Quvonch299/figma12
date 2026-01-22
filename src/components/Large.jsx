@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Large() {
   return (
-    <div className='flex flex-col md:flex-row max-w-7xl mx-auto'>
+    <div className='flex '>
       
       {/* Image */}
-      <div className='w-full md:w-[832px]'>
-        <img src="/large.png" alt="" className='w-full h-auto'/>
+      <div className=' '>
+        <img src="/large.png" alt="" className=''/>
       </div>
 
       {/* Text section */}
